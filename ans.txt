@@ -1,0 +1,132 @@
+HELD-KARP
+CLUSTER ORIGINAL: dm-drogerie markt -> 48°08'31.4"N 11°34'39.1"E -> Cervecería de la Casa Real Múnich -> Catedral de Múnich -> Sendlinger-Tor-Platz -> Marienplatz -> Iglesia San Pedro -> Karlsplatz -> Hofgarten -> Residenz -> Isartor -> Deutsches Museum
+RUTA HALLADA: Sendlinger-Tor-Platz -> Karlsplatz -> dm-drogerie markt -> Catedral de Múnich -> Marienplatz -> Iglesia San 
+Pedro -> 48°08'31.4"N 11°34'39.1"E -> Hofgarten -> Residenz -> Cervecería de la Casa Real Múnich -> Isartor -> Deutsches Museum, 
+56.89999999999999
+
+ROUTE 1-2
+CLUSTER ORIGINAL: dm-drogerie markt -> 48°08'31.4"N 11°34'39.1"E -> Residenz -> Karlsplatz -> Marienplatz -> Catedral de Múnich -> Iglesia San Pedro -> Sendlinger-Tor-Platz -> Cervecería de la Casa Real Múnich -> Isartor -> Hofgarten -> Deutsches Museum
+RUTA HALLADA: Sendlinger-Tor-Platz -> Karlsplatz -> dm-drogerie markt -> Catedral de Múnich -> Marienplatz -> Iglesia San 
+Pedro -> 48°08'31.4"N 11°34'39.1"E -> Hofgarten -> Residenz -> Cervecería de la Casa Real Múnich -> Isartor -> Deutsches Museum, 
+56.89999999999999
+
+----------------
+
+ROUTE 1-2
+CLUSTER ORIGINAL: Frauenstraße 20 -> Iglesia San Pedro -> Sendlinger-Tor-Platz -> Deutsches Museum -> 48°08'31.4"N 11°34'39.1"E -> Marienplatz -> Isartor -> Cervecería de la Casa Real Múnich -> dm-drogerie markt -> Residenz -> Catedral de Múnich -> Karlsplatz -> Hofgarten
+RUTA HALLADA: Sendlinger-Tor-Platz -> Karlsplatz -> dm-drogerie markt -> Catedral de Múnich -> Marienplatz -> Iglesia San 
+Pedro -> 48°08'31.4"N 11°34'39.1"E -> Hofgarten -> Residenz -> Cervecería de la Casa Real Múnich -> Isartor -> Frauenstraße 20 -> Deutsches Museum, 
+61.19999999999999
+
+TravelPal ORIGINAL
+RUTA HALLADA: Sendlinger-Tor-Platz -> Karlsplatz -> dm-drogerie markt -> Catedral de Múnich -> Marienplatz -> Iglesia San 
+Pedro -> coords -> Hofgarten -> Residenz -> Cervecería de la Casa Real Múnich -> Isartor -> Frauenstraße 20 -> Deutsches Museum, 
+61.19999999999999
+
+=============================
+Nearest
+RUTA FINAL: [['Monserrate'], ['Universidad de Bogotá Jorge Tadeo Lozano', 'Universidad de los Andes', 'Parque de los Periodistas Gabriel García Márquez', 'Museo del Oro', 'Museo Botero', 'Plaza de Bolívar', 'Museo Santa Clara', 'Claustro de San Agustín', 'Parque Metropolitano Tercer Milenio', 'Plazoleta Los Mártires', 'Centro Comercial Puerto Príncipe'], ['TransMilenio - Estación Ricaurte'], ['Plaza de Mercado Paloquemao', 'Colegio de Nuestra Señora de la Presentación - Centro'], ['Museo Nacional de Colombia', 'Parque Nacional', 'Pontificia Universidad Javeriana', 'Compensar Sede Calle 42', 'Casa de Betty La Fea', 'Park Way'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo Colsubsidio', 'Estadio Nemesio Camacho El Campín'], ['Plaza de Eventos Simón Bolívar', 'Salitre Mágico', 'Jardín Botánico de Bogotá José Celestino Mutis'], ['Plaza de Mercado Las Ferias'], ['Centro Comercial Titán Plaza'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ["McDonald's, Santa Bárbara"], ['Country Club de Bogotá'], ['Carulla Pepe Sierra'], ['Parque de la 93', 'Parque El Virrey', 'Centro Comercial Andino', 'Club El Nogal', 'Centro Comercial Avenida Chile'], ['Cafam Floresta'], ['Portal 80 - TransMilenio'], ['Centro Comercial Diverplaza'], ['Nuestro Bogotá'], ['Hayuelos Centro Comercial'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Centro Comercial El Edén'], ['Maloka Museo Interactivo'], ['Corferias'], ['Polideportivo El Jazmín'], ['Parque Mundo Aventura'], ['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Plaza de Mercado Fontibón'], ['Club Atlético Real Boyacá'], ['Aeropuerto Internacional El Dorado'], ['Summit Trampoline Park Bogotá'], ['Coliseo MedPlus'], ['Parque Público Fontanar del Río'], ['Plaza Imperial Centro Comercial'], ['Parque La Colina Centro Comercial'], ['Panamericana Cedritos'], ['Centro Comercial Panamá'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Parque Metropolitano San Cristóbal'], ['Plaza Mercado Restrepo']]
+
+
+TIEMPO TOTAL: 218.00000000000003 min
+
+Execution time
+--> Build: 276.0311789512634,
+--> Clusters: 10.426716804504395,
+--> Joining: 0.008000850677490234,
+--> Total: 286.4658966064453
+
+
+Genetic 
+     population_size: int = 100,
+     generations: int = 500,
+     mutation_rate: float = 0.1,
+     elite_size=10
+RUTA FINAL: [['Monserrate'], ['Universidad de Bogotá Jorge Tadeo Lozano', 'Universidad de los Andes', 'Parque de los Periodistas Gabriel García Márquez', 'Museo del Oro', 'Museo Botero', 'Plaza de Bolívar', 'Museo Santa Clara', 'Claustro de San Agustín', 'Parque Metropolitano Tercer Milenio', 'Plazoleta Los Mártires', 'Centro Comercial Puerto Príncipe'], ['Parque 
+Metropolitano San Cristóbal'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Plaza Mercado Restrepo'], ['Polideportivo El Jazmín'], ['TransMilenio - Estación Ricaurte'], ['Plaza de Mercado Paloquemao', 'Colegio de Nuestra Señora de la Presentación - Centro'], ['Centro Comercial Puerto Príncipe', 'Plazoleta Los Mártires', 'Parque Metropolitano Tercer Milenio', 'Claustro de San Agustín', 'Museo Santa Clara', 'Plaza de Bolívar', 'Museo Botero', 'Museo del Oro', 'Parque de los Periodistas Gabriel García Márquez', 'Universidad de los Andes', 'Universidad de Bogotá Jorge Tadeo Lozano'], ['Museo Nacional de Colombia', 'Parque Nacional', 'Pontificia Universidad Javeriana', 'Compensar Sede Calle 42', 'Casa de Betty La Fea', 'Park Way'], ['Estadio Nemesio Camacho El Campín', 'El Cubo Colsubsidio', 'Sede Bogotá - Universidad Nacional de Colombia'], ['Corferias'], ['Maloka Museo Interactivo'], ['Centro Comercial El Edén'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Parque Mundo Aventura'], ['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Hayuelos Centro Comercial'], ['Club Atlético Real Boyacá'], ['Plaza de Mercado Fontibón'], ['Aeropuerto Internacional El Dorado'], ['Nuestro Bogotá'], ['Centro Comercial Diverplaza'], ['Summit Trampoline Park Bogotá'], ['Portal 80 - TransMilenio'], ['Centro Comercial Titán Plaza'], ['Plaza de Mercado Las Ferias'], ['Jardín Botánico de Bogotá José Celestino Mutis', 
+'Salitre Mágico', 'Plaza de Eventos Simón Bolívar'], ['Centro Comercial Avenida Chile', 'Club El Nogal', 'Centro Comercial Andino', 'Parque El Virrey', 'Parque de la 93'], ['Carulla Pepe Sierra'], ['Country Club de Bogotá'], ['Panamericana Cedritos'], ['Parque La Colina Centro Comercial'], ['Centro Comercial Panamá'], ["McDonald's, Santa Bárbara"], ['Parque de la 
+93', 'Parque El Virrey', 'Centro Comercial Andino', 'Club El Nogal', 'Centro Comercial Avenida Chile'], ['Cafam Floresta'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ['Plaza Imperial Centro Comercial'], ['Parque Público Fontanar del Río'], ['Coliseo MedPlus']]
+
+
+TIEMPO TOTAL: 338.29999999999984 min
+
+Execution time
+--> Build: 275.45272850990295,
+--> Clusters: 10.529241561889648,
+--> Joining: 11.272181034088135,
+--> Total: 297.25415110588074
+
+
+Genetic
+     population_size=300,
+     generations=2000,
+     mutation_rate=0.08,
+     elite_size=20
+RUTA FINAL: [['Parque Metropolitano San Cristóbal'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Plaza Mercado Restrepo'], 
+['Polideportivo El Jazmín'], ['Parque Mundo Aventura'], ['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Centro Comercial El Edén'], ['Hayuelos Centro Comercial'], ['Plaza de Mercado Fontibón'], ['Club Atlético Real Boyacá'], ['Aeropuerto Internacional El Dorado'], ['Nuestro Bogotá'], ['Maloka Museo Interactivo'], ['Jardín Botánico de Bogotá José Celestino Mutis', 'Salitre Mágico', 'Plaza de Eventos Simón Bolívar'], ['Estadio Nemesio Camacho El Campín', 'El Cubo Colsubsidio', 'Sede Bogotá - Universidad Nacional de Colombia'], ['Corferias'], ['Plaza de Mercado Paloquemao', 'Colegio de Nuestra Señora de la Presentación - Centro'], ['TransMilenio - Estación Ricaurte'], ['Centro Comercial Puerto Príncipe', 'Plazoleta Los Mártires', 'Parque Metropolitano Tercer Milenio', 'Claustro de San Agustín', 'Museo Santa Clara', 'Plaza de Bolívar', 'Museo Botero', 'Museo del Oro', 'Parque de los Periodistas Gabriel García Márquez', 'Universidad de los Andes', 'Universidad de Bogotá Jorge Tadeo Lozano'], ['Monserrate'], ['Museo Nacional de Colombia', 'Parque Nacional', 'Pontificia Universidad Javeriana', 'Compensar Sede 
+Calle 42', 'Casa de Betty La Fea', 'Park Way'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo Colsubsidio', 
+'Estadio Nemesio Camacho El Campín'], ['Centro Comercial Avenida Chile', 'Club El Nogal', 'Centro Comercial Andino', 'Parque El Virrey', 'Parque de la 93'], ['Carulla Pepe Sierra'], ['Country Club de Bogotá'], ["McDonald's, Santa Bárbara"], ['Panamericana Cedritos'], ['Centro Comercial Panamá'], ['Parque La Colina Centro Comercial'], ['Plaza Imperial Centro Comercial'], ['Parque Público Fontanar del Río'], ['Coliseo MedPlus'], ['Summit Trampoline Park Bogotá'], ['Portal 80 - TransMilenio'], ['Centro Comercial Diverplaza'], ['Plaza de Mercado Las Ferias'], ['Centro Comercial Titán Plaza'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ['Cafam Floresta']]
+
+
+TIEMPO TOTAL: 240.69999999999996 min
+
+Execution time
+--> Build: 250.02187967300415,
+--> Clusters: 7.692246437072754,
+--> Joining: 98.4489278793335,
+--> Total: 356.1630539894104
+
+
+Genetic
+     population_size=400,
+     generations=4000,
+     mutation_rate=0.08,
+     elite_size=20
+RUTA FINAL: [['Summit Trampoline Park Bogotá'], ['Coliseo MedPlus'], ['Parque Público Fontanar del Río'], ['Plaza Imperial Centro Comercial'], ['Centro Comercial Panamá'], ['Parque La Colina Centro Comercial'], ['Portal 80 - TransMilenio'], ['Club Atlético Real Boyacá'], ['Plaza de Mercado Fontibón'], ['Aeropuerto Internacional El Dorado'], ['Centro Comercial Diverplaza'], ['Nuestro Bogotá'], ['Hayuelos Centro Comercial'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Centro Comercial El Edén'], ['Maloka Museo Interactivo'], ['Corferias'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo 
+Colsubsidio', 'Estadio Nemesio Camacho El Campín'], ['Cafam Floresta'], ['Parque de la 93', 'Parque El Virrey', 'Centro Comercial Andino', 'Club El Nogal', 'Centro Comercial Avenida Chile'], ['Park Way', 'Casa de Betty La Fea', 'Compensar Sede 
+Calle 42', 'Pontificia Universidad Javeriana', 'Parque Nacional', 'Museo Nacional de Colombia'], ['Monserrate'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Parque Metropolitano San Cristóbal'], ['Plaza Mercado Restrepo'], ['Centro Comercial Puerto Príncipe', 'Plazoleta Los Mártires', 'Parque Metropolitano Tercer Milenio', 'Claustro de San Agustín', 'Museo Santa Clara', 'Plaza de Bolívar', 'Museo Botero', 'Museo del Oro', 'Parque de los Periodistas Gabriel García Márquez', 'Universidad de los Andes', 'Universidad de Bogotá Jorge Tadeo Lozano'], ['Colegio de Nuestra Señora de la Presentación - Centro', 'Plaza de Mercado Paloquemao'], ['TransMilenio - Estación Ricaurte'], ['Polideportivo El Jazmín'], ['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Parque Mundo Aventura'], ['Jardín Botánico de Bogotá José Celestino Mutis', 'Salitre Mágico', 'Plaza de Eventos Simón Bolívar'], ['Plaza de Mercado Las Ferias'], ['Centro Comercial Titán Plaza'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ["McDonald's, Santa Bárbara"], ['Country Club de Bogotá'], ['Panamericana Cedritos'], ['Carulla Pepe Sierra']]
+
+
+TIEMPO TOTAL: 217.99999999999997 min
+
+Execution time
+--> Build: 241.99705505371094,
+--> Clusters: 7.630669116973877,
+--> Joining: 304.1369779109955,
+--> Total: 553.7647020816803
+
+
+Genetic
+     population_size=500,
+     generations=20000,
+     mutation_rate=0.08,
+     elite_size=20
+RUTA FINAL: [['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Centro Comercial El Edén'], ['Parque Mundo Aventura'], ['Polideportivo El Jazmín'], ['Plaza Mercado Restrepo'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Parque Metropolitano San Cristóbal'], ['Centro Comercial Puerto Príncipe', 'Plazoleta Los Mártires', 'Parque Metropolitano Tercer Milenio', 'Claustro de San Agustín', 'Museo Santa Clara', 'Plaza de Bolívar', 'Museo Botero', 'Museo del Oro', 'Parque de los Periodistas Gabriel García Márquez', 'Universidad de los Andes', 'Universidad de Bogotá Jorge Tadeo Lozano'], ['Colegio de Nuestra Señora de la Presentación - Centro', 'Plaza de Mercado Paloquemao'], ['TransMilenio - Estación Ricaurte'], ['Corferias'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo Colsubsidio', 'Estadio Nemesio Camacho El Campín'], ['Plaza de Eventos Simón Bolívar', 'Salitre Mágico', 'Jardín Botánico de Bogotá José Celestino Mutis'], ['Coliseo MedPlus'], ['Summit Trampoline Park Bogotá'], ['Portal 80 - TransMilenio'], ['Aeropuerto Internacional El Dorado'], ['Club Atlético Real Boyacá'], ['Plaza de Mercado Fontibón'], ['Hayuelos Centro Comercial'], ['Nuestro Bogotá'], ['Centro Comercial Diverplaza'], ['Parque La Colina Centro Comercial'], ['Centro Comercial Panamá'], ['Panamericana Cedritos'], ["McDonald's, Santa Bárbara"], ['Country Club de Bogotá'], ['Carulla Pepe Sierra'], ['Parque de la 93', 'Parque El Virrey', 'Centro Comercial Andino', 'Club El Nogal', 'Centro Comercial Avenida Chile'], ['Park Way', 'Casa de Betty La Fea', 'Compensar Sede Calle 42', 'Pontificia Universidad Javeriana', 'Parque Nacional', 'Museo Nacional de Colombia'], ['Monserrate'], ['Cafam Floresta'], ['Centro Comercial Bulevar Niza'], ['Parque Público Fontanar del Río'], ['Plaza Imperial Centro Comercial'], ['Campo de Golf Club Los Lagartos'], ['Centro 
+Comercial Titán Plaza'], ['Plaza de Mercado Las Ferias'], ['Maloka Museo Interactivo']]
+
+
+TIEMPO TOTAL: 218.0 min
+
+Execution time
+--> Build: 239.32538557052612,
+--> Clusters: 7.943425893783569,
+--> Joining: 1976.7716090679169,
+--> Total: 2224.0404205322266
+
+
+Genetic
+     population_size=500,
+     generations=5000,
+     mutation_rate=0.08,
+     elite_size=20
+RUTA FINAL: [['Maloka Museo Interactivo'], ['Centro Comercial El Edén'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Timiza'], ['Parque Mundo Aventura'], ['Polideportivo El Jazmín'], ['Plaza Mercado Restrepo'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Parque Metropolitano San Cristóbal'], ['Monserrate'], ['Colegio de Nuestra Señora de la Presentación - Centro', 'Plaza de Mercado Paloquemao'], ['Corferias'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo Colsubsidio', 'Estadio Nemesio Camacho El Campín'], ['Centro Comercial Avenida Chile', 'Club El Nogal', 'Centro Comercial Andino', 'Parque El Virrey', 'Parque de la 93'], ['Cafam Floresta'], ['Plaza de Mercado Las Ferias'], ['Centro Comercial Diverplaza'], ['Summit Trampoline Park Bogotá'], ['Portal 80 - TransMilenio'], ['Park Way', 'Casa de Betty La Fea', 'Compensar Sede Calle 42', 'Pontificia Universidad Javeriana', 'Parque Nacional', 'Museo Nacional de Colombia'], ['Universidad de Bogotá Jorge Tadeo Lozano', 'Universidad de los Andes', 'Parque de los Periodistas Gabriel García Márquez', 'Museo del Oro', 'Museo Botero', 'Plaza de Bolívar', 'Museo Santa Clara', 'Claustro de San Agustín', 'Parque Metropolitano Tercer Milenio', 
+'Plazoleta Los Mártires', 'Centro Comercial Puerto Príncipe'], ['TransMilenio - Estación Ricaurte'], ['Plaza de Mercado Fontibón'], ['Aeropuerto Internacional El Dorado'], ['Plaza de Eventos Simón Bolívar', 'Salitre Mágico', 'Jardín Botánico de Bogotá José Celestino Mutis'], ['Centro Comercial Titán Plaza'], ['Plaza Imperial Centro Comercial'], ['Parque Público Fontanar del Río'], ['Coliseo MedPlus'], ['Club Atlético Real Boyacá'], ['Parque Dindalito Bella Vista'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Hayuelos Centro Comercial'], ['Nuestro Bogotá'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ["McDonald's, Santa Bárbara"], ['Carulla Pepe Sierra'], ['Country Club de Bogotá'], ['Panamericana Cedritos'], ['Centro Comercial Panamá'], ['Parque La Colina Centro Comercial']]
+
+
+TIEMPO TOTAL: 217.99999999999997 min
+
+Execution time
+--> Build: 243.55147862434387,
+--> Clusters: 7.4771740436553955,
+--> Joining: 477.97093391418457,
+--> Total: 728.9995865821838
