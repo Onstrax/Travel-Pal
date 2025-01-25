@@ -1,0 +1,14 @@
+population_size=400,
+generations=4000,
+mutation_rate=0.08,
+elite_size=20
+
+RUTA FINAL: [['Monserrate'], ['Universidad de Bogotá Jorge Tadeo Lozano', 'Universidad de los Andes', 'Parque de los Periodistas Gabriel García Márquez', 'Museo del Oro', 'Museo Botero', 'Plaza de Bolívar', 'Museo Santa Clara', 'Claustro de San Agustín', 'Parque Metropolitano Tercer Milenio', 'Plazoleta Los Mártires', 'Centro Comercial Puerto Príncipe'], ['TransMilenio - Estación Ricaurte'], ['Plaza de Mercado Paloquemao', 'Colegio de Nuestra Señora de la Presentación - Centro'], ['Museo Nacional de Colombia', 'Parque Nacional', 'Pontificia Universidad Javeriana', 'Compensar Sede Calle 42', 'Casa de Betty La Fea', 'Park Way'], ['Sede Bogotá - Universidad Nacional de Colombia', 'El Cubo Colsubsidio', 'Estadio Nemesio Camacho El Campín'], ['Plaza de Eventos Simón Bolívar', 'Salitre Mágico', 'Jardín Botánico de Bogotá José Celestino Mutis'], ['Plaza de Mercado Las Ferias'], ['Centro Comercial Titán Plaza'], ['Campo de Golf Club Los Lagartos'], ['Centro Comercial Bulevar Niza'], ["McDonald's, Santa Bárbara"], ['Country Club de Bogotá'], ['Carulla Pepe Sierra'], ['Parque de la 93', 'Parque El Virrey', 'Centro Comercial Andino', 'Club El Nogal', 'Centro Comercial Avenida Chile'], ['Cafam Floresta'], ['Portal 80 - TransMilenio'], ['Centro Comercial Diverplaza'], ['Nuestro Bogotá'], ['Hayuelos Centro Comercial'], ['Universitaria Agustiniana - UNIAGUSTINIANA'], ['Centro Comercial El Edén'], ['Maloka Museo Interactivo'], ['Corferias'], ['Polideportivo El Jazmín'], ['Parque Mundo Aventura'], ['Parque Timiza'], ['Parque Metropolitano Cayetano Cañizares'], ['Parque Dindalito Bella Vista'], ['Plaza de Mercado Fontibón'], ['Club Atlético Real Boyacá'], ['Aeropuerto Internacional El Dorado'], ['Summit Trampoline Park Bogotá'], ['Coliseo MedPlus'], ['Parque Público Fontanar del Río'], ['Plaza Imperial Centro Comercial'], ['Parque La Colina Centro Comercial'], ['Panamericana Cedritos'], ['Centro Comercial Panamá'], ['ESTACIÓN CIUDAD JARDÍN TRANSMILENIO'], ['Parque Metropolitano San Cristóbal'], ['Plaza Mercado Restrepo']]
+
+TIEMPO TOTAL: 1995.3 min
+
+Execution time
+--> Build: 247.4820680618286,
+--> Clusters: 8.04666256904602,
+--> Joining: 364.2745006084442,
+--> Total: 619.8032312393188

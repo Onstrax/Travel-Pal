@@ -1,6 +1,7 @@
+import time
+import polyline
 import requests
 import itertools
-import time
 from typing import Dict
 from parser import parse_kml_to_dict
 from graphs import Vertex, Graph, Edge
@@ -30,13 +31,13 @@ def build_complete_walking_graph(kml_dict: Dict[str, str], osrm_base_url: str = 
             # Hacer la solicitud al servidor local
             response = requests.get(
                 f"{osrm_base_url}/route/v1/foot/{coords_str}",
-                params={"overview": "false", "steps": "false"}
+                params={"overview": "full", "steps": "false"}  # ¡Cambiado a 'full'!
             ).json()
             
             if response["code"] == "Ok":
-                # Convertir segundos a minutos
                 duration = round(response["routes"][0]["duration"] / 60, 1)
-                edge = Edge(v1, v2, duration)
+                geometry = polyline.decode(response["routes"][0]["geometry"])  # Decodificar polilínea
+                edge = Edge(v1, v2, duration, geometry)
                 graph.add_edge(edge)
             else:
                 print(f"Error entre {v1.name}-{v2.name}: {response.get('message', 'Sin ruta')}")

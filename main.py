@@ -46,11 +46,14 @@ def path_of(cluster: List[str]) -> str:
                path += " -> "
      return path
 
+def main():
+     pass
+
 if __name__ == "__main__":
      start = time.time()
      start_point = "Marienplatz"
      start_point = None
-     data_dict = parse_kml_to_dict("POIs3.kml")
+     data_dict = parse_kml_to_dict("POIs4.kml")
      graph = build_complete_walking_graph(data_dict)
      end = time.time()
      clusters = CL.find_clusters(graph)
@@ -109,8 +112,8 @@ if __name__ == "__main__":
      
      print(f'\n\nTIEMPO TOTAL: {best_time} min')
      
-     MG.create_kml_route(answer, graph, "ruta_optima_kml.kml")
-     MG.create_html_map(answer, graph, "ruta_optima_html.html")
+     MG.create_kml_real_route(answer, graph, "ruta_optima_kml_real.kml")
+     # MG.create_html_real_route(answer, graph, "ruta_optima_html_real.html")
      
      end3 = time.time()
      print(f'\nExecution time \n--> Build: {end-start}, \n--> Clusters: {end2-end}, \n--> Joining: {end3-end2}, \n--> Total: {end3-start}')

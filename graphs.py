@@ -19,10 +19,11 @@ class Vertex:
         return isinstance(other, Vertex) and self.name == other.name
 
 class Edge:
-    def __init__(self, origin: Vertex, destination: Vertex, time_minutes: float):
+    def __init__(self, origin: Vertex, destination: Vertex, time_minutes: float, geometry: list[tuple[float, float]]):
         self.origin = origin
         self.destination = destination
         self.time_minutes = time_minutes
+        self.geometry = geometry
     
     def __repr__(self) -> str:
         return f"Edge({self.origin.name} ↔ {self.destination.name}: {self.time_minutes} min)"
