@@ -6,7 +6,7 @@ sys.dont_write_bytecode = True
 
 def parse_kml_to_dict(kml_name: str) -> dict:
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    kml_filename = os.path.join(base_dir, kml_name)
+    kml_filename = os.path.join(base_dir, "input",kml_name)
     ns = {'kml': 'http://www.opengis.net/kml/2.2'}
     
     # Cargar el archivo KML

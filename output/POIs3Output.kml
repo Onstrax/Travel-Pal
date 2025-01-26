@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Folder id="10">
+            <name>Ruta Turística Optimizada</name>
+            <Folder id="11">
+                <Style id="4">
+                    <LineStyle id="5">
+                        <color>ff0000ff</color>
+                        <colorMode>normal</colorMode>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+                <name>Tramos</name>
+                <Folder id="13">
+                    <name>Cúmulo 1</name>
+                </Folder>
+                <Placemark id="20">
+                    <name>Enlace C1-C2</name>
+                    <styleUrl>#4</styleUrl>
+                    <LineString id="19">
+                        <coordinates>-74.0618655,4.6454199,0.0 -74.0646645,4.6284875,0.0</coordinates>
+                    </LineString>
+                </Placemark>
+                <Folder id="21">
+                    <Style id="2">
+                        <LineStyle id="3">
+                            <color>ffff8000</color>
+                            <colorMode>normal</colorMode>
+                            <width>4</width>
+                        </LineStyle>
+                    </Style>
+                    <name>Cúmulo 2</name>
+                    <Placemark id="33">
+                        <name>Pontificia Universidad Javeriana → Parque Nacional</name>
+                        <styleUrl>#2</styleUrl>
+                        <LineString id="32">
+                            <coordinates>-74.06466,4.62853,0.0 -74.06466,4.62853,0.0 -74.06477,4.62856,0.0 -74.06483,4.62857,0.0 -74.06483,4.62856,0.0 -74.06486,4.62845,0.0 -74.06486,4.62843,0.0 -74.06488,4.62844,0.0 -74.06496,4.62815,0.0 -74.06498,4.62809,0.0 -74.06485,4.62806,0.0 -74.06487,4.62795,0.0 -74.06497,4.62797,0.0 -74.06511,4.62801,0.0 -74.06513,4.62801,0.0 -74.06515,4.62802,0.0 -74.06524,4.62768,0.0 -74.06533,4.62729,0.0 -74.06534,4.62725,0.0 -74.06536,4.62719,0.0 -74.06539,4.6272,0.0 -74.0654,4.62719,0.0 -74.06549,4.62681,0.0 -74.06556,4.62651,0.0 -74.06563,4.62625,0.0 -74.0656,4.62613,0.0 -74.06558,4.62606,0.0 -74.06556,4.62599,0.0 -74.06561,4.62595,0.0 -74.06562,4.6259,0.0 -74.06563,4.62583,0.0 -74.06561,4.62564,0.0 -74.06564,4.62555,0.0 -74.06586,4.62467,0.0 -74.06586,4.62465,0.0 -74.06592,4.6244,0.0</coordinates>
+                        </LineString>
+                    </Placemark>
+                </Folder>
+                <Placemark id="35">
+                    <name>Enlace C2-C3</name>
+                    <styleUrl>#4</styleUrl>
+                    <LineString id="34">
+                        <coordinates>-74.0659615,4.6244118,0.0 -74.067801,4.606567,0.0</coordinates>
+                    </LineString>
+                </Placemark>
+                <Folder id="36">
+                    <name>Cúmulo 3</name>
+                    <Placemark id="63">
+                        <name>Universidad de Bogotá Jorge Tadeo Lozano → Universidad de los Andes</name>
+                        <styleUrl>#2</styleUrl>
+                        <LineString id="62">
+                            <coordinates>-74.066,4.6014,0.0 -74.06598,4.60142,0.0 -74.06597,4.60145,0.0 -74.06581,4.60172,0.0 -74.06597,4.60178,0.0 -74.06595,4.60183,0.0 -74.06624,4.60197,0.0 -74.06627,4.60198,0.0 -74.06626,4.60203,0.0 -74.06622,4.60216,0.0 -74.06614,4.60241,0.0 -74.06602,4.60282,0.0 -74.066,4.60287,0.0 -74.06605,4.60288,0.0 -74.06607,4.60289,0.0 -74.06613,4.60293,0.0 -74.06616,4.60296,0.0 -74.06619,4.60299,0.0 -74.0662,4.60302,0.0 -74.06621,4.60305,0.0 -74.06626,4.60316,0.0 -74.06628,4.60319,0.0 -74.06629,4.60321,0.0 -74.0663,4.60322,0.0 -74.06632,4.60323,0.0 -74.06653,4.60335,0.0 -74.06654,4.60336,0.0 -74.06658,4.60338,0.0 -74.06662,4.6034,0.0 -74.06665,4.60342,0.0 -74.06669,4.60344,0.0 -74.06697,4.60361,0.0 -74.06701,4.60363,0.0 -74.06719,4.60373,0.0 -74.06736,4.60383,0.0 -74.06751,4.60391,0.0 -74.06746,4.60404,0.0 -74.06729,4.60436,0.0 -74.06712,4.60469,0.0 -74.06674,4.60539,0.0 -74.06677,4.6054,0.0 -74.06682,4.60543,0.0 -74.06687,4.60546,0.0 -74.06692,4.60549,0.0 -74.06696,4.60551,0.0 -74.067,4.60553,0.0 -74.06697,4.60559,0.0 -74.06696,4.60561,0.0 -74.06695,4.60563,0.0 -74.06709,4.60571,0.0 -74.06722,4.60581,0.0 -74.06737,4.60591,0.0 -74.06738,4.60592,0.0 -74.06781,4.60621,0.0 -74.06783,4.60623,0.0 -74.06787,4.60625,0.0 -74.06772,4.60652,0.0</coordinates>
+                        </LineString>
+                    </Placemark>
+                    <Placemark id="65">
+                        <name>Universidad de los Andes → Parque de los Periodistas Gabriel García Márquez</name>
+                        <styleUrl>#2</styleUrl>
+                        <LineString id="64">
+                            <coordinates>-74.066,4.6014,0.0 -74.06598,4.60142,0.0 -74.06597,4.60145,0.0 -74.06581,4.60172,0.0 -74.06597,4.60178,0.0 -74.06595,4.60183,0.0 -74.06624,4.60197,0.0 -74.06627,4.60198,0.0 -74.06628,4.60196,0.0 -74.06647,4.60143,0.0 -74.0666,4.60149,0.0 -74.06672,4.60155,0.0 -74.06678,4.60157,0.0 -74.06683,4.60159,0.0 -74.06689,4.6016,0.0 -74.06701,4.60161,0.0 -74.06728,4.60162,0.0 -74.06731,4.60162,0.0 -74.06734,4.60162,0.0 -74.06737,4.60161,0.0 -74.06739,4.6016,0.0 -74.06741,4.60159,0.0 -74.06743,4.60157,0.0 -74.06746,4.60152,0.0 -74.06767,4.60161,0.0 -74.06772,4.60163,0.0 -74.06775,4.60164,0.0 -74.06777,4.60166,0.0 -74.06782,4.60169,0.0 -74.06791,4.60173,0.0 -74.06793,4.60174,0.0 -74.06859,4.60206,0.0 -74.06851,4.60222,0.0 -74.06853,4.60224,0.0 -74.06865,4.60233,0.0 -74.06903,4.60156,0.0 -74.06906,4.60149,0.0 -74.06912,4.60141,0.0 -74.06919,4.60133,0.0 -74.06926,4.60129,0.0 -74.06931,4.60126,0.0 -74.06937,4.60118,0.0 -74.06941,4.60115,0.0</coordinates>
+                        </LineString>
+                    </Placemark>
+                    <Placemark id="67">
+                        <name>Parque de los Periodistas Gabriel García Márquez → Museo del Oro</name>
+                        <styleUrl>#2</styleUrl>
+                        <LineString id="66">
+                            <coordinates>-74.07215,4.60198,0.0 -74.07205,4.60214,0.0 -74.07142,4.60176,0.0 -74.07099,4.60152,0.0 -74.07088,4.60145,0.0 -74.07008,4.60099,0.0 -74.07009,4.60096,0.0 -74.07007,4.60095,0.0 -74.07004,4.60094,0.0 -74.07002,4.60097,0.0 -74.06999,4.60096,0.0 -74.06992,4.60095,0.0 -74.06985,4.60096,0.0 -74.06967,4.60098,0.0 -74.06954,4.60103,0.0 -74.06946,4.60109,0.0 -74.06941,4.60115,0.0</coordinates>
+                        </LineString>
+                    </Placemark>
+                    <Placemark id="69">
+                        <name>Museo del Oro → Museo Botero</name>
+                        <styleUrl>#2</styleUrl>
+                        <LineString id="68">
+                            <coordinates>-74.07215,4.60198,0.0 -74.07243,4.60149,0.0 -74.07265,4.60111,0.0 -74.07261,4.60108,0.0 -74.07256,4.60104,0.0 -74.07247,4.60097,0.0 -74.07249,4.60094,0.0 -74.07251,4.6009,0.0 -74.07254,4.60085,0.0 -74.07286,4.60033,0.0 -74.07317,4.59982,0.0 -74.07341,4.59944,0.0 -74.07339,4.59943,0.0 -74.0734,4.59941,0.0 -74.07255,4.59883,0.0 -74.07283,4.59837,0.0 -74.07291,4.59823,0.0 -74.07303,4.59804,0.0 -74.07356,4.59717,0.0 -74.07319,4.59694,0.0</coordinates>
+                        </LineString>
+                    </Placemark>
+                </Folder>
+                <Placemark id="71">
+                    <name>Enlace C3-C4</name>
+                    <styleUrl>#4</styleUrl>
+                    <LineString id="70">
+                        <coordinates>-74.0733503,4.596698,0.0 -74.0555255,4.6056728,0.0</coordinates>
+                    </LineString>
+                </Placemark>
+                <Folder id="72">
+                    <name>Cúmulo 4</name>
+                </Folder>
+            </Folder>
+            <Folder id="12">
+                <Style id="16">
+                    <IconStyle id="17">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="18">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="24">
+                    <IconStyle id="25">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="26">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="29">
+                    <IconStyle id="30">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="31">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="39">
+                    <IconStyle id="40">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="41">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="44">
+                    <IconStyle id="45">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="46">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="49">
+                    <IconStyle id="50">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="51">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="54">
+                    <IconStyle id="55">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="56">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="59">
+                    <IconStyle id="60">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="61">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Style id="75">
+                    <IconStyle id="76">
+                        <color>ffff0000</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="77">
+                            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>Puntos de Interés (POIs)</name>
+                <Placemark id="15">
+                    <name>1) Parque de los Hippies</name>
+                    <description>Orden en ruta: 1
+Orden en cúmulo: 1
+Coordenadas: 4.645420°N, -74.061865°E</description>
+                    <styleUrl>#16</styleUrl>
+                    <Point id="14">
+                        <coordinates>-74.0618655,4.6454199,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="23">
+                    <name>2) Pontificia Universidad Javeriana</name>
+                    <description>Orden en ruta: 2
+Orden en cúmulo: 1
+Coordenadas: 4.628488°N, -74.064665°E</description>
+                    <styleUrl>#24</styleUrl>
+                    <Point id="22">
+                        <coordinates>-74.0646645,4.6284875,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>3) Parque Nacional</name>
+                    <description>Orden en ruta: 3
+Orden en cúmulo: 2
+Coordenadas: 4.624412°N, -74.065962°E</description>
+                    <styleUrl>#29</styleUrl>
+                    <Point id="27">
+                        <coordinates>-74.0659615,4.6244118,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>4) Universidad de Bogotá Jorge Tadeo Lozano</name>
+                    <description>Orden en ruta: 4
+Orden en cúmulo: 1
+Coordenadas: 4.606567°N, -74.067801°E</description>
+                    <styleUrl>#39</styleUrl>
+                    <Point id="37">
+                        <coordinates>-74.067801,4.606567,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="43">
+                    <name>5) Universidad de los Andes</name>
+                    <description>Orden en ruta: 5
+Orden en cúmulo: 2
+Coordenadas: 4.601458°N, -74.066133°E</description>
+                    <styleUrl>#44</styleUrl>
+                    <Point id="42">
+                        <coordinates>-74.0661334,4.6014581,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>6) Parque de los Periodistas Gabriel García Márquez</name>
+                    <description>Orden en ruta: 6
+Orden en cúmulo: 3
+Coordenadas: 4.601219°N, -74.069481°E</description>
+                    <styleUrl>#49</styleUrl>
+                    <Point id="47">
+                        <coordinates>-74.0694809,4.6012192,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="53">
+                    <name>7) Museo del Oro</name>
+                    <description>Orden en ruta: 7
+Orden en cúmulo: 4
+Coordenadas: 4.601913°N, -74.072041°E</description>
+                    <styleUrl>#54</styleUrl>
+                    <Point id="52">
+                        <coordinates>-74.0720411,4.6019128,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="58">
+                    <name>8) Museo Botero</name>
+                    <description>Orden en ruta: 8
+Orden en cúmulo: 5
+Coordenadas: 4.596698°N, -74.073350°E</description>
+                    <styleUrl>#59</styleUrl>
+                    <Point id="57">
+                        <coordinates>-74.0733503,4.596698,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="74">
+                    <name>9) Monserrate</name>
+                    <description>Orden en ruta: 9
+Orden en cúmulo: 1
+Coordenadas: 4.605673°N, -74.055526°E</description>
+                    <styleUrl>#75</styleUrl>
+                    <Point id="73">
+                        <coordinates>-74.0555255,4.6056728,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>

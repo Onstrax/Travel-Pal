@@ -1,6 +1,7 @@
 from simplekml import Kml, Style, Color, Icon
 from graphs import Graph
 import folium
+import os
 
 def create_kml_route(optimized_route: list[list[str]], graph: Graph, output_filename: str = "ruta_optima.kml"):
     kml = Kml()
@@ -170,8 +171,10 @@ def create_kml_real_route(optimized_route: list[list[str]], graph: Graph, output
     # ==============================================
     # 4. Guardar y exportar
     # ==============================================
-    kml.save(output_filename)
-    print(f"KML profesional generado: {output_filename}")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    kml_filename = os.path.join(base_dir, "output",output_filename)
+    kml.save(kml_filename)
+    print(f"KML profesional generado: {kml_filename}")
 
 
 def create_html_real_route(optimized_route: list[list[str]], graph: Graph, output_filename: str = "ruta_real.html"):

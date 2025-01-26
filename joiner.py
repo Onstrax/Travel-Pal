@@ -181,8 +181,8 @@ class GeneticClusterOptimizer:
     def __init__(
         self, 
         graph: Graph,
-        population_size=500,
-        generations=10000,
+        population_size=400,
+        generations=4000,
         mutation_rate=0.08,
         elite_size=20
     ):
