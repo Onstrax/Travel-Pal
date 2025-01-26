@@ -9,14 +9,14 @@ import sys
 import sys
 sys.dont_write_bytecode = True
 
-def find_clusters(graph: Graph) -> List[List[str]]:
+def find_clusters(graph: Graph, max_walk: int = 15) -> List[List[str]]:
     clusters = []
     visited: Set[str] = set()
     
     # Construir lista de adyacencia solo para arcos <=15 minutos
     adjacency: Dict[str, List[str]] = {}
     for edge in graph.get_all_edges():
-        if edge.time_minutes <= 15:
+        if edge.time_minutes <= max_walk:
             u = edge.origin.name
             v = edge.destination.name
             if u not in adjacency:

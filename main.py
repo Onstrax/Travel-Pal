@@ -48,12 +48,12 @@ def path_of(cluster: List[str]) -> str:
                path += " -> "
      return path
 
-def main(start_point: str, read_from: str, write_to: str) -> None:
+def main(start_point: str, read_from: str, write_to: str, max_walk: int) -> None:
      start = time.time()
      data_dict = parse_kml_to_dict(read_from)
      graph = build_complete_walking_graph(data_dict)
      end = time.time()
-     clusters = CL.find_clusters(graph)
+     clusters = CL.find_clusters(graph, max_walk) #15 min default
      print(clusters)
      optimal_clusters = []
      starter_cluster = None
@@ -88,26 +88,27 @@ def main(start_point: str, read_from: str, write_to: str) -> None:
      # method = 'genetic'
      answer = []
      best_time = math.inf
-     if len(optimal_clusters) <= 10: 
-          answer = optimize_cluster_order(optimal_clusters, graph, start_point, "brute")
-          best_time = get_times_for_route(answer, graph, False)
-          print(f"\nBy brute: {best_time}")
+     # if len(optimal_clusters) <= 10: 
+     #      answer = optimize_cluster_order(optimal_clusters, graph, start_point, "brute")
+     #      best_time = get_times_for_route(answer, graph, False)
+     #      print(f"\nBy brute: {best_time}")
      nearest_route = optimize_cluster_order(optimal_clusters, graph, start_point, "nearest")
      nearest_time = get_times_for_route(nearest_route, graph, False)
      print(f"\nBy nearest: {nearest_time}")
      genetic_route = optimize_cluster_order(optimal_clusters, graph, start_point, "genetic")
      genetic_time = get_times_for_route(genetic_route, graph, False)
      print(f"\nBy genetic: {genetic_time}")
-     if nearest_time < genetic_time and nearest_time < best_time:
+     genetic_time = math.inf
+     if nearest_time <= genetic_time and nearest_time <= best_time:
           print("\n\nBy nearest:")
           answer = nearest_route
           best_time = nearest_time
-     elif genetic_time < nearest_time and genetic_time < best_time:
-          print("\n\nBy genetic:")
-          answer = genetic_route
-          best_time = genetic_time
-     else:
-          print("\n\nBy brute:")
+     # if genetic_time <= nearest_time and genetic_time <= best_time:
+     #      print("\n\nBy genetic:")
+     #      answer = genetic_route
+     #      best_time = genetic_time
+     # else:
+     #      print("\n\nBy brute:")
      print(f'RUTA FINAL: {answer}')
      
      print(f'\n\nTIEMPO TOTAL: {best_time} min')
@@ -121,7 +122,11 @@ def main(start_point: str, read_from: str, write_to: str) -> None:
      shutil.rmtree("__pycache__", ignore_errors=True)
 
 if __name__ == "__main__":
-     start_point = None
-     read_from = "POIs3.kml"
-     write_to = "POIs3Output.kml"
-     main(start_point, read_from, write_to)
+     read_from = "Viena.kml"
+     start_point = "Bandgasse 6" # Viena
+     # start_point = "Zichy Jenő u. 22" # Budapest
+     # start_point = "U Půjčovny 1353/8" # Praga
+     # start_point = None # Madrid
+     max_walk = 15
+     write_to = "VienaRoutesBrute.kml"
+     main(start_point, read_from, write_to, max_walk)
